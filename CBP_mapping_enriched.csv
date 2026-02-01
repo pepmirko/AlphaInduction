@@ -1,0 +1,26 @@
+CBP,Family,Sequence,Length_aa,N_terminus,ATCUN_head,HxxxH_clamp,Clamp_pos(1-based),Anchor,Basic_count(K+R),Acidic_count(D+E),Aromatic_count(FYW),Net_charge_est(pH7.4),Interaction_regime,Role,Risks/Notes
+CBPα1,α,GGHEAAKEAAKEAAKLWKK,19,Free,GGH,None,,LWKK,5,3,1,2.04,Low,ATCUN-variant GGH,
+CBPα2,α,DAHEAAKEAAKEAAKEALWKK,21,Free,DAH,None,,LWKK,5,5,1,0.04,Low,Baseline ATCUN,
+CBPα3,α,DAHEAAKEAAKEAAKEAAKWKK,22,Free,DAH,None,,WKK,6,5,1,1.04,Low,Minimal anchor (no Leu),
+CBPα4,α,DAHEAAKEAAKEAAKEAAKAWKK,23,Free,DAH,None,,AWKK,6,5,1,1.04,Low,Less hydrophobic anchor (A-WKK),
+CBPα5,α,DAHEAAKEAAKEAAKEAAKEAAKEAAKEAAKLWKK,35,Free,DAH,None,,LWKK,9,8,1,1.04,Low,Baseline long,
+CBPα6,α,GGHEAAKEAAKEAAKEAAKEAAKEAAKEAAKLWKK,35,Free,GGH,None,,LWKK,9,7,1,2.04,Low,GGH-ATCUN long,
+CBPβ1,β,DAHEAAKEAAKEAAKHAAAHLWKK,24,Free,DAH,HAAAH,16-20,LWKK,5,4,1,1.11,Medium,Clamp position test,Multiple His microstates possible (geometry/tautomer)
+CBPβ2,β,DAHEAAKEAAKHAAAHEAAKLWKK,24,Free,DAH,HAAAH,12-16,LWKK,5,4,1,1.11,Medium,Champion ATCUN + HxxxH clamp,Multiple His microstates possible (geometry/tautomer)
+CBPβ3,β,DAHEAAKEAAKHQAAHEAAKLWKK,24,Free,DAH,HQAAH,12-16,LWKK,5,4,1,1.11,Medium,Clamp alternative (HQAAH),Multiple His microstates possible (geometry/tautomer)
+CBPβ4,β,DAHEAAKEAAKHRAAHEAAKLWKK,24,Free,DAH,HRAAH,12-16,LWKK,6,4,1,2.11,Medium,HxxxH clamp polar (HRAAH),Multiple His microstates possible (geometry/tautomer)
+CBPβ5,β,DAHEAAKEAAKHAAAHEAAKLYWKK,25,Free,DAH,HAAAH,12-16,LYWKK,5,4,2,1.11,Medium,Aromatic anchor (LYWKK),Higher hydrophobic engagement; monitor β-templating risk; Multiple His microstates possible (geometry/tautomer)
+CBPβ6,β,DAHEAAKEAAKEAAKHQAAHEAAKWKK,27,Free,DAH,HQAAH,16-20,WKK,6,5,1,1.11,Medium,Double EAAK before clamp,Multiple His microstates possible (geometry/tautomer)
+CBPβ7,β,DAHEAAKEAAKEAAKHAAAHEAAKAAWKK,29,Free,DAH,HAAAH,16-20,AWKK,6,5,1,1.11,Medium,Longer <30 with AAWKK,Multiple His microstates possible (geometry/tautomer)
+CBPβ10,β,DAHEAAKEAAKEAAKHAAAHEAAKEAAKEAAKAWKK,36,Free,DAH,HAAAH,16-20,AWKK,8,7,1,1.11,Medium,Clamp + propagation + anchor A-WKK,Multiple His microstates possible (geometry/tautomer)
+CBPβ8,β,DAHEAAKEAAKEAAKEAAKHQAAHEAAKEAAKLWKK,36,Free,DAH,HQAAH,20-24,LWKK,8,7,1,1.11,Medium,HQAAH long,Multiple His microstates possible (geometry/tautomer)
+CBPβ9,β,DAHEAAKEAAKEAAKEAAKHRAAHEAAKEAAKLWKK,36,Free,DAH,HRAAH,20-24,LWKK,9,7,1,2.11,Medium,Clamp HRAAH in long context,Multiple His microstates possible (geometry/tautomer)
+CBPβ11,β,DAHEAAKEAAKEAAKEAAKEAAAKHAAAHEAAKLWKK,37,Free,DAH,HAAAH,25-29,LWKK,8,7,1,1.11,Medium,Long scaffold + internal clamp,Multiple His microstates possible (geometry/tautomer)
+CBPβ12,β,DAHEAAKEAAKEAAKEAAKEAAKHAAAHEAAKEAAKWKK,39,Free,DAH,HAAAH,24-28,WKK,9,8,1,1.11,Medium,High stability + clamp + WKK,Multiple His microstates possible (geometry/tautomer)
+CBPβ13,β,DAHEAAKEAAKEAAKEAAKHAAAHEAAKEAAKEAAKLYWKK,41,Free,DAH,HAAAH,20-24,LYWKK,9,8,2,1.11,Medium,Robust propagation + anchor LYWKK,Higher hydrophobic engagement; monitor β-templating risk; Multiple His microstates possible (geometry/tautomer)
+CBPγ1,γ,Ac-EAAKEAAKHAAAHEAAKEAAK,21,Acetylated,None,HAAAH,9-13,None,4,4,0,-0.92,Control,"Negative control, ATCUN-dead",ATCUN disabled (control); Multiple His microstates possible (geometry/tautomer)
+CBPγ2,γ,Ac-DAHEAAKEAAKHAAAHEAAKLWKK,24,Acetylated,DAH,HAAAH,12-16,LWKK,5,4,1,0.11,Control,Ac-control of MG35,ATCUN disabled (control); Multiple His microstates possible (geometry/tautomer)
+CBPγ3,γ,Ac-EAAKEAAKEAAKHAAAHEAAKEAAKEAAKWKK,32,Acetylated,None,HAAAH,13-17,WKK,8,6,1,1.08,Control,"Ac-control long, clamp-only",ATCUN disabled (control); Multiple His microstates possible (geometry/tautomer)
+CBPδ1,δ,DAHEEAAKRAAEAAKRAAEAAKRAAWK,27,Free,DAH,None,,None,7,5,1,2.04,High,Interaction comparator,Higher non-specific electrostatic binding risk
+CBPδ2,δ,DAHEEAAKRAAEEAAKRAAEEAAKRAAEEAAKWKK,35,Free,DAH,None,,WKK,9,9,1,0.04,High,Charged long controllable,Higher non-specific electrostatic binding risk
+CBPδ3,δ,DAHEEAAKRAAEEAAKRAAEEAAKRAAEEAAKRAAWKK,38,Free,DAH,None,,AWKK,10,9,1,1.04,High,Charged long upper bound,Higher non-specific electrostatic binding risk
