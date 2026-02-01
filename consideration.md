@@ -1,12 +1,3 @@
-# consideration.md — CBP library (family-based naming)
-
-This file defines the **current peptide library** after:
-1) removing previously discarded sequences (they are **not** listed here),
-2) renaming peptides using the **CBP{GreekLetter}{index}** convention (family-based), and
-3) ordering peptides **by family**, then **by length** within each family.
-
-**Naming rule:** the Greek letter encodes the design family; the index increases with sequence length within that family.
-
 ## Library index (ordered by family and length)
 
 ## Family α — ATCUN baselines (no internal clamp; low-interaction regime)
